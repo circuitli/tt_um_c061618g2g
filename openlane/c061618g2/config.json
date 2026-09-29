@@ -89,8 +89,8 @@
     "VDD_NETS": [ "VDD" ],
     "GND_NETS": [ "VSS" ],
 
-    "FP_CORE_UTIL": 55,
-    "PL_TARGET_DENSITY_PCT": 65,
+    "FP_CORE_UTIL": 65,
+    "PL_TARGET_DENSITY_PCT": 75,
 
     "_DIE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
     "_CORE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
@@ -122,6 +122,8 @@
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
+    "GPL_CELL_PADDING": 2,
+    "DPL_CELL_PADDING": 2,
 
     "RUN_ANTENNA_REPAIR": true,
     "RUN_HEURISTIC_DIODE_INSERTION": true
