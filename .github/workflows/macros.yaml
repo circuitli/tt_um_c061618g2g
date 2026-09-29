@@ -75,6 +75,13 @@ jobs:
           # 5. Locate where ciel placed the versioned directory assets and symlink it
           CIEL_DIR=$(find /home/runner/ -type d -name "gf180mcuD" -path "*/versions/*" | head -n 1)
           cp -r "$CIEL_DIR" /home/runner/pdk/gf180mcu
+
+          # 7. Bridge Ciel's OpenLane configurations over to LibreLane
+          # This creates the exact folder structure LibreLane is panicking about!
+          if [ -d "/home/runner/pdk/gf180mcu/libs.tech/openlane" ] && [ ! -d "/home/runner/pdk/gf180mcu/libs.tech/librelane" ]; then
+            echo "🌉 Bridging OpenLane configurations to LibreLane paths..."
+            cp -r /home/runner/pdk/gf180mcu/libs.tech/openlane /home/runner/pdk/gf180mcu/libs.tech/librelane
+          fi
      
           # 6. Export environment variables to expose paths to subsequent tools
           echo "PDK_ROOT=/home/runner/pdk" >> $GITHUB_ENV
