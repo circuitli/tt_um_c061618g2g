@@ -55,7 +55,7 @@ add_pdn_stripe \
     -starts_with POWER
 
 # 2. VERTICAL STRIPE LAYER: Explicitly forced to vertical layout rules
-add_pdn_stripe \
+#add_pdn_stripe \
     -grid stdcell_grid \
     -layer $::env(TILE_PDN_VERTICAL_LAYER) \
     -width $::env(TILE_PDN_VWIDTH) \
@@ -76,7 +76,7 @@ if { $::env(PDN_ENABLE_RAILS) == 1 } {
     # Connect horizontal Metal1 cell rails to the Vertical power straps (Metal4)
     add_pdn_connect \
         -grid stdcell_grid \
-        -layers "$::env(PDN_RAIL_LAYER) $::env(TILE_PDN_VERTICAL_LAYER)"
+        -layers "$::env(PDN_RAIL_LAYER) $::env(PDN_VERTICAL_LAYER)"
 }
 
 # Connect core grid Vertical stripes to Horizontal stripes
@@ -84,7 +84,7 @@ add_pdn_connect \
     -grid stdcell_grid \
     -layers "$::env(PDN_VERTICAL_LAYER) $::env(PDN_HORIZONTAL_LAYER)"
 
-add_pdn_connect \
+#add_pdn_connect \
     -grid stdcell_grid \
     -layers "$::env(PDN_HORIZONTAL_LAYER) $::env(TILE_PDN_VERTICAL_LAYER)" 
 
@@ -104,4 +104,4 @@ define_pdn_grid \
 # Step 2: Connect Vertical Parameter straps straight down to the macro's true Horizontal Metal3 targets
 add_pdn_connect \
     -grid macro \
-    -layers "$::env(TILE_PDN_VERTICAL_LAYER) Metal3"
+    -layers "$::env(PDN_VERTICAL_LAYER) met3"
