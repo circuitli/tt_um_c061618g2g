@@ -88,6 +88,9 @@
     "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
     "VDD_NETS": [ "VDD" ],
     "GND_NETS": [ "VSS" ],
+    "VDD_PIN": "VDD",
+    "GND_PIN": "VSS",
+    "SYNTH_USE_PG_PINS": 1,
 
     "FP_CORE_UTIL": 60,
     "PL_TARGET_DENSITY_PCT": 70,
@@ -122,6 +125,7 @@
     "LVS_CONNECT_BY_LABEL": 1,
     "LVS_INSERT_POWER_PINS": 1,
     "MAGIC_EXT_UNIQUE": "none",
+    "MAGIC_ZERO_CELL_LEF": 1,
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
