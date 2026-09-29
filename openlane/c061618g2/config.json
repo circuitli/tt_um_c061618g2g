@@ -90,7 +90,6 @@
     "GND_NETS": [ "VSS" ],
     "VDD_PIN": "VDD",
     "GND_PIN": "VSS",
-    "SYNTH_USE_PG_PINS": 1,
 
     "FP_CORE_UTIL": 60,
     "PL_TARGET_DENSITY_PCT": 70,
@@ -104,7 +103,6 @@
     "PDN_HORIZONTAL_LAYER": "Metal3",
     "PDN_VERTICAL_LAYER": "Metal2",
     "PDN_RAIL_LAYER": "Metal1",
-    "PDN_STD_CELL_RAILS": [ "Metal1" ],
     "_FP_PDN_UPPER_LAYERS": [ "Metal2", "Metal3", "Metal4" ],
     "RT_CLOCK_MIN_LAYER": "Metal1",
     "RT_CLOCK_MAX_LAYER": "Metal2",
@@ -122,13 +120,7 @@
     "PDN_SKIPTRIM": false,
 
     "_FP_PDN_CHECK_NODES": 0,
-    "LVS_INSERT_POWER_PINS": 1,
-    "LVS_CONNECT_BY_LABEL": 1,
-    "LVS_CASE_SENSITIVE": 1,
-    "NETGEN_SETUP_FILE": "",
-    "LVS_EXTRA_ARGS": [ "-c" ],
     "MAGIC_EXT_UNIQUE": "none",
-    "MAGIC_ZERO_CELL_LEF": 1,
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
@@ -138,9 +130,8 @@
     "RUN_ANTENNA_REPAIR": true,
     "RUN_HEURISTIC_DIODE_INSERTION": true,
 
-    "FP_IO_VEXTEND": 0,
-    "FP_IO_HEXTEND": 0
-  },
+    "IO_PIN_V_EXTENSION": 0,
+    "IO_PIN_H_EXTENSION": },
 
   "// -------------------------------------------------------------------------": "",
   "// 1. Force the toolchain to treat the layout flatly with no clock trees.": "",
