@@ -7,7 +7,7 @@ FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 MACROS_DIR     := macros
-PROJECT_SOURCES = project.sv
+PROJECT_SOURCES = project.v
 #COMPILE_ARGS += -g2012
 # If your includes are inside 'src/'
 

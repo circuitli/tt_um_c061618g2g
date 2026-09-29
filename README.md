@@ -1,7 +1,7 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
 ## 1. Overview
-This project implements a Memory Management Unit (MMU) mmodule for traditional 8-bit computer architectures. Fabricated on the GlobalFoundries 100nm CMOS process node (GF180MCU), this chip translates logical processor addresses into dynamic memory page-select signals.
+This project implements a Memory Management Unit (MMU) for traditional 8-bit computer architectures. Fabricated on the GlobalFoundries 100nm CMOS process node (GF180MCU), this chip translates logical processor addresses into dynamic memory page-select signals.
 
 ## 2. How It Works
 The hardware sits directly on the system's 16-bit address bus, intercepting the high-order address rows to decode sub-space windows. 

@@ -26,10 +26,6 @@ module tb ();
   wire [7:0] uo_out;
   wire [7:0] uio_out;
   wire [7:0] uio_oe;
-`ifdef GL_TEST
-  wire VPWR = 1'b1;
-  wire VGND = 1'b0;
-`endif
 
   // =========================================================================
   // INITIAL BASELINE DRIVERS
@@ -41,19 +37,7 @@ module tb ();
   end
 
   // Instantiate the actual user module under test (UUT)
-`ifdef GL_TEST
-  // Instantiate the wrapper name that the automated script injected into the netlist
-  // (Change 'tt_um_c061618g2_bypass' to match the top_module name in THE info.yaml)
-  tt_um_c061618g2_bypass user_project (
-`else
-  // Standard RTL simulation uses your raw custom name
-  c061618g2 user_project (
-`endif
-// Include power ports for the Gate Level test:
-`ifdef GL_TEST
-      .VPWR(VPWR),
-      .VGND(VGND),
-`endif
+  tt_um_c061618g2g user_project (
       .ui_in  (ui_in),    // Dedicated inputs
       .uo_out (uo_out),   // Dedicated outputs
       .uio_in (uio_in),   // Bidirectional IOs: Input path
