@@ -11,7 +11,7 @@
 
   "_IO_PIN_ORDER_CFG": "dir::pin_order.cfg",
 
-  "_synth_vector_mapping": "square",
+  "synth_vector_mapping": "square",
 
   "PDN_CORE_RING": false,
 
@@ -120,7 +120,7 @@
     "PDN_SKIPTRIM": false,
 
     "_FP_PDN_CHECK_NODES": 0,
-    "MAGIC_EXT_UNIQUE": false,
+    "MAGIC_EXT_UNIQUE": "none",
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
@@ -131,8 +131,7 @@
     "RUN_ANTENNA_REPAIR": false,
     "RUN_HEURISTIC_DIODE_INSERTION": false,
 
-    "FP_IO_EDGE_DISTANCE": 5,
-    "FP_IO_MIN_DISTANCE": 3,
+    "IO_PIN_MIN_DISTANCE": 3,
     "IO_PIN_V_EXTENSION": 2,
     "IO_PIN_H_EXTENSION": 2
   },
