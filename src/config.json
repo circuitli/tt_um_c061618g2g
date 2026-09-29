@@ -119,7 +119,7 @@
       }
     },
     "RT_MAX_LAYER": "Metal4",
-    "PDN_HORIZONTAL_LAYER": "Metal5",
+    "_PDN_HORIZONTAL_LAYER": "Metal5",
     "PDN_MACRO_CONNECTIONS": [
       "u_c061618g2 VPWR VGND VDD VSS"
     ],

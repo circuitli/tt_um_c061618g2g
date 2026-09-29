@@ -45,7 +45,7 @@ add_pdn_stripe \
     -starts_with POWER -extend_to_core_ring
 
 # 1. HORIZONTAL STRIPE LAYER: Explicitly forced to horizontal layout rules
-add_pdn_stripe \
+#add_pdn_stripe \
     -grid stdcell_grid \
     -layer $::env(PDN_HORIZONTAL_LAYER) \
     -width $::env(PDN_HWIDTH) \
@@ -80,7 +80,7 @@ if { $::env(PDN_ENABLE_RAILS) == 1 } {
 }
 
 # Connect core grid Vertical stripes to Horizontal stripes
-add_pdn_connect \
+#add_pdn_connect \
     -grid stdcell_grid \
     -layers "$::env(PDN_VERTICAL_LAYER) $::env(PDN_HORIZONTAL_LAYER)"
 
@@ -104,4 +104,4 @@ define_pdn_grid \
 # Step 2: Connect Vertical Parameter straps straight down to the macro's true Horizontal Metal3 targets
 add_pdn_connect \
     -grid macro \
-    -layers "$::env(PDN_VERTICAL_LAYER) met3"
+    -layers "$::env(PDN_VERTICAL_LAYER) Metal3"
