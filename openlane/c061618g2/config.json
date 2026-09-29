@@ -120,7 +120,7 @@
     "PDN_SKIPTRIM": false,
 
     "_FP_PDN_CHECK_NODES": 0,
-    "MAGIC_EXT_UNIQUE": "none",
+    "MAGIC_EXT_UNIQUE": false,
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
