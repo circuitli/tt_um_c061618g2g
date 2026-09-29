@@ -122,8 +122,11 @@
     "PDN_SKIPTRIM": false,
 
     "_FP_PDN_CHECK_NODES": 0,
-    "LVS_CONNECT_BY_LABEL": 1,
     "LVS_INSERT_POWER_PINS": 1,
+    "LVS_CONNECT_BY_LABEL": 1,
+    "LVS_CASE_SENSITIVE": 1,
+    "NETGEN_SETUP_FILE": "",
+    "LVS_EXTRA_ARGS": [ "-c" ],
     "MAGIC_EXT_UNIQUE": "none",
     "MAGIC_ZERO_CELL_LEF": 1,
 
