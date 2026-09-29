@@ -101,6 +101,7 @@
     "PDN_HORIZONTAL_LAYER": "Metal3",
     "PDN_VERTICAL_LAYER": "Metal2",
     "PDN_RAIL_LAYER": "Metal1",
+    "PDN_STD_CELL_RAILS": [ "Metal1" ],
     "_FP_PDN_UPPER_LAYERS": [ "Metal2", "Metal3", "Metal4" ],
     "RT_CLOCK_MIN_LAYER": "Metal1",
     "RT_CLOCK_MAX_LAYER": "Metal2",
@@ -128,7 +129,10 @@
     "DPL_CELL_PADDING": 2,
 
     "RUN_ANTENNA_REPAIR": true,
-    "RUN_HEURISTIC_DIODE_INSERTION": true
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+
+    "FP_IO_VEXTEND": 0,
+    "FP_IO_HEXTEND": 0
   },
 
   "// -------------------------------------------------------------------------": "",
