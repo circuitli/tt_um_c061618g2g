@@ -137,6 +137,8 @@
     "IO_PIN_V_EXTENSION": 2,
     "IO_PIN_H_EXTENSION": 2,
     "IO_PIN_PLACEMENT_MODE": "annealing",
+    "IO_PIN_MIN_DISTANCE_IN_TRACKS": 4,
+    "IO_PIN_CORNER_AVOIDANCE": true,
 
     "_LVS_SPICE_MODELS": [
       "pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice"
