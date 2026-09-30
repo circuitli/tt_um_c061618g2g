@@ -89,13 +89,16 @@
     "VDD_PIN": "VDD",
     "GND_PIN": "VSS",
 
-    "FP_CORE_UTIL": 60,
-    "PL_TARGET_DENSITY_PCT": 70,
+    "FP_CORE_UTIL": 55,
+    "PL_TARGET_DENSITY_PCT": 65,
 
     "_DIE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
     "_CORE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
-    "DIE_AREA": [ 0.0, 0.0, 172.48, 39.20 ],
-    "CORE_AREA": [ 0.0, 0.0, 172.48, 39.20 ],
+    "__DIE_AREA": [ 0.0, 0.0, 172.48, 39.20 ],
+    "__CORE_AREA": [ 0.0, 0.0, 172.48, 39.20 ],
+    "DIE_AREA": [ 0.0, 0.0, 197.12, 39.20 ],
+    "CORE_AREA": [ 0.0, 0.0, 197.12, 39.20 ],
+
 
     "RT_MAX_LAYER": "Metal3",
     "PDN_HORIZONTAL_LAYER": "Metal3",
