@@ -137,7 +137,11 @@
     "_LVS_SPICE_MODELS": [
       "pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice"
     ],
-    "_LVS_FLATTEN_CELLS": [ "gf180mcu_fd_sc_mcu7t5v0__*" ],
+    "LVS_FLATTEN_CELLS": [
+      "gf180mcu_fd_sc_mcu7t5v0__or3_1",
+      "gf180mcu_fd_sc_mcu7t5v0__nand3_1",
+      "gf180mcu_fd_sc_mcu7t5v0__oai31_1"
+    ],
     "_LVS_IGNORE_CELLS": [
       "gf180mcu_fd_sc_mcu7t5v0__fill_1",
       "gf180mcu_fd_sc_mcu7t5v0__fill_2",
