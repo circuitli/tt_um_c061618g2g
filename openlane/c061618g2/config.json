@@ -120,6 +120,7 @@
 
     "PDN_SKIPTRIM": false,
 
+    "FP_PDN_AUTO_SHAPE": 1,
     "_FP_PDN_CHECK_NODES": 0,
     "MAGIC_EXT_UNIQUE": "none",
     "MAGIC_EXT_USE_GDS": true,
@@ -133,6 +134,7 @@
     "RUN_ANTENNA_REPAIR": false,
     "RUN_HEURISTIC_DIODE_INSERTION": false,
 
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_PG_PINS",
     "IO_PIN_V_EXTENSION": 2,
     "IO_PIN_H_EXTENSION": 2,
     "IO_PIN_PLACEMENT_MODE": "annealing",
