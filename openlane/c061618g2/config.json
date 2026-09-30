@@ -115,7 +115,7 @@
 
     "PDN_VWIDTH": 0.46,
     "PDN_VSPACING": 0.46,
-    "PDN_VOFFSET": 10.36,
+    "PDN_VOFFSET": 12.32,
     "PDN_VPITCH": 25.20,
 
     "PDN_SKIPTRIM": false,
@@ -126,8 +126,8 @@
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
-    "GPL_CELL_PADDING": 2,
-    "DPL_CELL_PADDING": 2,
+    "GPL_CELL_PADDING": 0,
+    "DPL_CELL_PADDING": 0,
 
     "GRT_ANTENNA_REPAIR_ITERS": 0,
     "RUN_ANTENNA_REPAIR": false,
