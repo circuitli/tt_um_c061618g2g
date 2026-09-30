@@ -11,8 +11,6 @@
 
   "_IO_PIN_ORDER_CFG": "dir::pin_order.cfg",
 
-  "SYNTH_VECTOR_MAPPING": "square",
-
   "PDN_CORE_RING": false,
 
   "_PDN_CFG": "dir::pdn_cfg.tcl",
@@ -135,6 +133,7 @@
     "IO_PIN_V_EXTENSION": 2,
     "IO_PIN_H_EXTENSION": 2,
 
+    "LVS_FLATTEN_CELLS": [ "gf180mcu_fd_sc_mcu7t5v0__*" ],
     "LVS_IGNORE_CELLS": [
       "gf180mcu_fd_sc_mcu7t5v0__fill_1",
       "gf180mcu_fd_sc_mcu7t5v0__fill_2",
