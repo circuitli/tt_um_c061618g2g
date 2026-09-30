@@ -119,6 +119,7 @@
 
     "_FP_PDN_CHECK_NODES": 0,
     "MAGIC_EXT_UNIQUE": "none",
+    "MAGIC_EXT_USE_GDS": true,
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 20,
@@ -133,7 +134,7 @@
     "IO_PIN_V_EXTENSION": 2,
     "IO_PIN_H_EXTENSION": 2,
 
-    "LVS_SPICE_MODELS": [
+    "_LVS_SPICE_MODELS": [
       "pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice"
     ],
     "_LVS_FLATTEN_CELLS": [ "gf180mcu_fd_sc_mcu7t5v0__*" ],
