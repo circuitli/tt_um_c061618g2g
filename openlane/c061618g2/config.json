@@ -115,7 +115,7 @@
 
     "PDN_VWIDTH": 0.46,
     "PDN_VSPACING": 0.46,
-    "PDN_VOFFSET": 6.16,
+    "PDN_VOFFSET": 12.32,
     "PDN_VPITCH": 24.64,
 
     "PDN_SKIPTRIM": true,
@@ -147,7 +147,7 @@
     "_LVS_SPICE_MODELS": [
       "pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice"
     ],
-    "LVS_FLATTEN_CELLS": [
+    "_LVS_FLATTEN_CELLS": [
       "gf180mcu_fd_sc_mcu7t5v0__tiel",
       "gf180mcu_fd_sc_mcu7t5v0__tielo",
       "gf180mcu_fd_sc_mcu7t5v0__and2_1",
