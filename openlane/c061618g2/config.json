@@ -126,7 +126,7 @@
     "_FP_PDN_CHECK_NODES": 0,
     "VERILOG_POWER_DEFINE": "USE_PG_PINS",
     "MAGIC_EXT_UNIQUE": "none",
-    "MAGIC_EXT_USE_GDS": true,
+    "MAGIC_EXT_USE_GDS": false,
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 30,
