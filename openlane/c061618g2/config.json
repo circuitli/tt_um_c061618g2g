@@ -116,9 +116,9 @@
     "PDN_VWIDTH": 0.46,
     "PDN_VSPACING": 0.46,
     "PDN_VOFFSET": 12.32,
-    "PDN_VPITCH": 22.40,
+    "PDN_VPITCH": 25.20,
 
-    "PDN_SKIPTRIM": false,
+    "PDN_SKIPTRIM": true,
 
     "PDN_ENABLE_GLOBAL_CONNECTIONS": true,
     "FP_PDN_MULTIPLE_POWER_NETS": false,
