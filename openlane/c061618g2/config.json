@@ -111,12 +111,12 @@
     "PDN_HWIDTH": 0.46,
     "PDN_HSPACING": 0.46,
     "PDN_HOFFSET": 3.92,
-    "PDN_HPITCH": 7.84,
+    "PDN_HPITCH": 15.68,
 
     "PDN_VWIDTH": 0.46,
     "PDN_VSPACING": 0.46,
-    "PDN_VOFFSET": 12.32,
-    "PDN_VPITCH": 24.64,
+    "PDN_VOFFSET": 6.16,
+    "PDN_VPITCH": 12.32,
 
     "PDN_SKIPTRIM": true,
 
@@ -130,8 +130,8 @@
 
     "RUN_TAP_ENDCAP_INSERTION": true,
     "FP_TAPCELL_DIST": 30,
-    "GPL_CELL_PADDING": 0,
-    "DPL_CELL_PADDING": 0,
+    "GPL_CELL_PADDING": 2,
+    "DPL_CELL_PADDING": 2,
 
     "GRT_ANTENNA_REPAIR_ITERS": 0,
     "RUN_ANTENNA_REPAIR": false,
