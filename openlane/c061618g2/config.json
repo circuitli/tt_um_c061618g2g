@@ -147,7 +147,7 @@
 
     "IO_PIN_V_EXTENSION": 0,
     "IO_PIN_H_EXTENSION": 2,
-    "IO_PIN_PLACEMENT_MODE": "random",
+    "IO_PIN_PLACEMENT_MODE": "random_equidistant",
     "IO_PIN_MIN_DISTANCE_IN_TRACKS": true,
     "IO_PIN_MIN_DISTANCE": 4,
     "IO_PIN_CORNER_AVOIDANCE": true,
