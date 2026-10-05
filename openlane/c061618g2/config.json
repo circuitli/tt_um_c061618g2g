@@ -24,6 +24,10 @@
   "// -------------------------------------------------------------------------": "",
   "pdk::ihp-sg13g2": {
     "VERILOG_DEFINES": [ "IHP_SG13G2" ],
+
+    "//": "SYNTH_STRATEGY - Changing this option over to an area or raw delay strategy rewrites ABC's optimization profile, completely stripping out the crashing sequential timing sub-commands (like scorr)!",
+    "SYNTH_STRATEGY": "AREA 0",
+
     "LVS_FLATTEN_CELLS": [],
     "_LVS_FLATTEN_CELLS": [ "sg13g2_tielo", "sg13g2_tiehi", "sg13g2_antennanp", "sg13g2_fill_1", "sg13g2_fill_2", "sg13g2_fill_4", "sg13g2_decap_4", "sg13g2_decap_8" ],
     "LVS_IGNORE_CELLS": [
@@ -84,6 +88,10 @@
   "pdk::gf180mcu*": {
     "VERILOG_DEFINES": [ "GF180MCU" ],
     "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+
+    "//": "SYNTH_STRATEGY - Changing this option over to an area or raw delay strategy rewrites ABC's optimization profile, completely stripping out the crashing sequential timing sub-commands (like scorr)!",
+    "SYNTH_STRATEGY": "AREA 3",
+
     "VDD_NETS": [ "VDD" ],
     "GND_NETS": [ "VSS" ],
     "VDD_PIN": "VDD",
@@ -139,7 +147,7 @@
 
     "IO_PIN_V_EXTENSION": 0,
     "IO_PIN_H_EXTENSION": 2,
-    "IO_PIN_PLACEMENT_MODE": "annealing",
+    "IO_PIN_PLACEMENT_MODE": "random",
     "IO_PIN_MIN_DISTANCE_IN_TRACKS": true,
     "IO_PIN_MIN_DISTANCE": 4,
     "IO_PIN_CORNER_AVOIDANCE": true,
@@ -174,10 +182,6 @@
   "CLOCK_PERIOD": 0,
   "CLOCK_PORT": null,
   "CLOCK_NET": null,
-  "RUN_CTS": false,
-
-  "//": "SYNTH_STRATEGY - Changing this option over to an area or raw delay strategy rewrites ABC's optimization profile, completely stripping out the crashing sequential timing sub-commands (like scorr)!",
-  "SYNTH_STRATEGY": "AREA 0"
-
+  "RUN_CTS": false
 }
   
