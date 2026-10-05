@@ -89,8 +89,8 @@
     "VDD_PIN": "VDD",
     "GND_PIN": "VSS",
 
-    "FP_CORE_UTIL": 55,
-    "PL_TARGET_DENSITY_PCT": 65,
+    "FP_CORE_UTIL": 45,
+    "PL_TARGET_DENSITY_PCT": 55,
 
     "_DIE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
     "_CORE_AREA": [ 0.0, 0.0, 147.84, 39.20 ],
@@ -115,8 +115,8 @@
 
     "PDN_VWIDTH": 0.46,
     "PDN_VSPACING": 0.46,
-    "PDN_VOFFSET": 6.16,
-    "PDN_VPITCH": 12.32,
+    "PDN_VOFFSET": 3.08,
+    "PDN_VPITCH": 24.64,
 
     "PDN_SKIPTRIM": true,
 
@@ -138,7 +138,7 @@
     "RUN_HEURISTIC_DIODE_INSERTION": false,
 
     "IO_PIN_V_EXTENSION": 0,
-    "IO_PIN_H_EXTENSION": 0,
+    "IO_PIN_H_EXTENSION": 2,
     "IO_PIN_PLACEMENT_MODE": "annealing",
     "IO_PIN_MIN_DISTANCE_IN_TRACKS": true,
     "IO_PIN_MIN_DISTANCE": 4,
